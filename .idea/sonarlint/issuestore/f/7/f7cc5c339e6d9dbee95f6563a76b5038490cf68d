@@ -1,0 +1,50 @@
+
+o
+java:S2293c"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ„•÷
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ„•÷
+l	java:S117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í™šéùÿÿÿÿ
+l
+java:S2095("QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+m
+java:S2095‹"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+m
+java:S2095³"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+l
+java:S2095a"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+l
+java:S20956"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+n
+java:S3008"SRename this field "POST_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¬şÆúÿÿÿÿ
+h
+java:S3008"RRename this field "GET_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ò–æ
+V	java:S125."<This block of commented-out lines of code should be removed.(´ªõÊøÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ŠÃÚâúÿÿÿÿ
+Q
+java:S18547";Remove this useless assignment to local variable "httpGet".(§¾ˆè
+Y
+java:S18546">Remove this useless assignment to local variable "httpClient".(âÁê‚ùÿÿÿÿ
+J
+java:S14816"/Remove this unused "httpClient" local variable.(âÁê‚ùÿÿÿÿ
+B
+java:S14817",Remove this unused "httpGet" local variable.(§¾ˆè
+V	java:S1259"<This block of commented-out lines of code should be removed.(ğ²¹›ÿÿÿÿÿ
+S	java:S106w"9Replace this use of System.out or System.err by a logger.(ìƒüÿÿÿÿ
+S	java:S106}"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+X
+java:S1075‰"ARefactor your code to get this URI from a customizable parameter.(ÃÔÊ“
+O	java:S106"9Replace this use of System.out or System.err by a logger.(ù§é
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ç…Ñ÷
+T	java:S106§"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+X
+java:S1075°"ARefactor your code to get this URI from a customizable parameter.(ÃÔÊ“
+y
+java:S3923Ë"[Remove this conditional structure or edit its code blocks so that they're not all the same.(×êŞ•8¸ºÃœŠ0
+U	java:S106Ì"9Replace this use of System.out or System.err by a logger.(‚š‰18ö°¼œŠ0
+U	java:S106Ï"9Replace this use of System.out or System.err by a logger.(‚š‰18úÄ½œŠ0
+E
+java:S1144""/Remove this unused private "instaCheck" method.(°´¤
+D
+java:S11445".Remove this unused private "getMethod" method.(Éê©›
+E
+java:S1144`"/Remove this unused private "postMethod" method.(©İÚä

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.license.manager.Controller.Auth.Login">
+   <center>
+      <VBox alignment="CENTER" fillWidth="false" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #f2f2f2;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="435.0" prefWidth="466.0" style="-fx-background-color: white; -fx-background-radius: 8; -fx-border-color: gray; -fx-border-radius: 5;">
+               <children>
+                  <VBox fillWidth="false">
+                     <children>
+                        <Label contentDisplay="TOP" text="ADMIN LOGIN" textFill="#ebc007">
+                           <graphic>
+                              <ImageView fitHeight="70.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/lock_ic.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox spacing="40.0">
+                     <children>
+                        <VBox fillWidth="false" spacing="5.0">
+                           <children>
+                              <Label text="USERNAME / EMAIL / PHONE :">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="input" focusTraversable="false" onKeyReleased="#enterPress" prefHeight="37.0" prefWidth="394.0" promptText="USERNAME / EMAIL / PHONE :" text="techwhizer" />
+                           </children>
+                        </VBox>
+                        <VBox fillWidth="false" spacing="5.0">
+                           <children>
+                              <Label text="PASSWORD :">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <PasswordField fx:id="passwordTf" focusTraversable="false" onKeyReleased="#enterPress" prefHeight="37.0" prefWidth="394.0" promptText="Enter Password" text="techwhizer" />
+                              <HBox alignment="BOTTOM_RIGHT" prefWidth="394.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#forgotPassword" style="-fx-background-color: transparent; -fx-text-fill: red; -fx-cursor: hand;" text="FORGOT PASSWORD ?">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox alignment="BOTTOM_CENTER" spacing="5.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#clickLoginButton" prefHeight="21.0" prefWidth="174.0" style="-fx-background-color: BLUE; -fx-cursor: hand;" text="LOGIN" textFill="#f7f7f7">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <font>
+                              <Font name="Arial Black" size="13.0" />
+                           </font>
+                        </Button>
+                        <HBox>
+                           <children>
+                              <Label style="-fx-cursor: hand;" text="Don't have an account? " />
+                              <Label onMouseClicked="#signupHere" style="-fx-cursor: hand;" text="Signup" textFill="#3400ef">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

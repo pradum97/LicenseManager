@@ -1,0 +1,50 @@
+
+o
+java:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ„•÷
+E
+java:S1121‰".Extract the assignment out of this expression.(ÖĞĞ
+E
+java:S1121Š".Extract the assignment out of this expression.(Ø¶åÖ
+g	java:S117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®•í
+g
+java:S1301ˆ"KReplace this "switch" statement by "if" statements to increase readability.(’—“üÿÿÿÿ
+R	java:S110²"<This class has 9 parents which is greater than 5 authorized.(ÍÙÃô
+R	java:S110–"<This class has 9 parents which is greater than 5 authorized.(ì¬İ‘
+p
+java:S1104)"UMake usernameL a static final constant or non-public and provide accessors if needed.(±­‡Ûùÿÿÿÿ
+k
+java:S1104*"UMake tableView a static final constant or non-public and provide accessors if needed.(º¸¿
+n
+java:S1104+"SMake colSrNo a static final constant or non-public and provide accessors if needed.(ó…ï¥ÿÿÿÿÿ
+o
+java:S1104,"TMake colAppId a static final constant or non-public and provide accessors if needed.(ÔôåÄıÿÿÿÿ
+q
+java:S1104-"VMake colAppName a static final constant or non-public and provide accessors if needed.(î¿ÀÅÿÿÿÿÿ
+k
+java:S1104."UMake colStatus a static final constant or non-public and provide accessors if needed.(ó¤ûŒ
+r
+java:S1104/"]Make colRegisteredDate a static final constant or non-public and provide accessors if needed.(ø°åz
+q
+java:S11040"VMake colAppType a static final constant or non-public and provide accessors if needed.(¬Ø¯±ûÿÿÿÿ
+p
+java:S11041"UMake colAction a static final constant or non-public and provide accessors if needed.(»‚¦‡ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãéŸ£
+\
+java:S2259–"EA "NullPointerException" could be thrown; "appList" is nullable here.(Âã¨æ
+l
+java:S2095m"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+j
+java:S14502"TRemove the "users" field and declare it as a local variable in the relevant methods.(·¨¨Ó
+H
+java:S1172@"2Remove this unused method parameter "actionEvent".(ä»¼›
+Q
+java:S2696K"6Make the enclosing method "static" or remove this set.(–Ã…Óúÿÿÿÿ
+H
+java:S1172R"2Remove this unused method parameter "actionEvent".(³Âí
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(¹§©
+=	java:S131ˆ""Add a default case to this switch.(’—“üÿÿÿÿ
+i
+java:S3776¯"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(¹¥­§
+W	java:S125À"<This block of commented-out lines of code should be removed.(‚ÍÆãùÿÿÿÿ
+c
+java:S3252Ø"LUse static access with "javafx.scene.layout.Region" for "USE_COMPUTED_SIZE".(ªöÁ©

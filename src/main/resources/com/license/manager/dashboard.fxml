@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.license.manager.Controller.Dashboard">
+    <center>
+      <StackPane>
+         <children>
+            <AnchorPane>
+               <children>
+                  <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                                <TableView fx:id="tableView" focusTraversable="false" VBox.vgrow="ALWAYS">
+                                    <columns>
+                                        <TableColumn fx:id="colSrNo" editable="false" maxWidth="50.0" minWidth="60.0" prefWidth="60.0" sortable="false" text="SrNo" />
+                                        <TableColumn fx:id="colAppId" editable="false" minWidth="250" maxWidth="300" sortable="false" text="APP ID" />
+                                        <TableColumn fx:id="colAppName" editable="false" minWidth="200.0" prefWidth="75.0" sortable="false" text="APP NAME" />
+                                        <TableColumn fx:id="colAppType" editable="false" minWidth="130.0" maxWidth="130" sortable="false" text="APP TYPE" />
+                                        <TableColumn fx:id="colStatus" editable="false" minWidth="120.0" maxWidth="120" sortable="false" text="STATUS" />
+                                        <TableColumn fx:id="colRegisteredDate" editable="false" minWidth="160.0" maxWidth="160" sortable="false" text="REGISTERED DATE" />
+                                        <TableColumn fx:id="colAction" editable="false" minWidth="200.0" sortable="false" text="#" />
+                                    </columns>
+                                    <columnResizePolicy>
+                                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                    </columnResizePolicy>
+                                </TableView>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+    </center>
+    <top>
+        <VBox BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER_RIGHT" prefHeight="80.0" style="-fx-background-color: #00264d;">
+                    <children>
+                        <HBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                            <children>
+                                <VBox alignment="CENTER_LEFT" spacing="8.0" HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" spacing="10.0">
+                                            <children>
+                                                <Label alignment="CENTER" style="-fx-text-fill: WHITE;" text="USERNAME : ">
+                                                    <font>
+                                                        <Font name="Arial Bold" size="12.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label fx:id="usernameL" alignment="CENTER" layoutX="10.0" layoutY="10.0" style="-fx-text-fill: WHITE;">
+                                                    <font>
+                                                        <Font name="Arial Bold" size="13.0" />
+                                                    </font>
+                                                </Label>
+                                            </children>
+                                            <VBox.margin>
+                                                <Insets left="80.0" />
+                                            </VBox.margin>
+                                            <padding>
+                                                <Insets top="5.0" />
+                                            </padding>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </HBox>
+                        <Button mnemonicParsing="false" onAction="#addNewApps" style="-fx-background-color: BLUE; -fx-text-fill: WHITE; -fx-font-weight: BOLD; -fx-background-radius: 2; -fx-cursor: hand;" text="+ ADD NEW APP">
+                            <HBox.margin>
+                                <Insets right="60.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#logout" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: RED; -fx-text-fill: WHITE; -fx-font-weight: BOLD; -fx-background-radius: 2; -fx-cursor: hand;" text="LOGOUT">
+                            <graphic>
+                                <ImageView fitHeight="15.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@icon/logout_ic.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <HBox.margin>
+                                <Insets bottom="10.0" right="30.0" top="10.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+            </children>
+        </VBox>
+    </top>
+</BorderPane>

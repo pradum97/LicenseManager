@@ -1,0 +1,43 @@
+
+o
+java:S2293r"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ„•÷
+V	java:S107o"<Method has 8 parameters, which is greater than 7 authorized.(ÓžÖýÿÿÿÿ
+o
+java:S1104$"TMake submitBn a static final constant or non-public and provide accessors if needed.(å¦øÚþÿÿÿÿ
+q
+java:S1104%"VMake fullNameTf a static final constant or non-public and provide accessors if needed.(ðëùáúÿÿÿÿ
+l
+java:S1104&"VMake usernameTf a static final constant or non-public and provide accessors if needed.(Ä¸êš
+n
+java:S1104'"SMake phoneTf a static final constant or non-public and provide accessors if needed.(¾ÀºÔúÿÿÿÿ
+n
+java:S1104("SMake emailTf a static final constant or non-public and provide accessors if needed.(Óø›Þþÿÿÿÿ
+t
+java:S1104)"YMake companyNameTf a static final constant or non-public and provide accessors if needed.(ÍéÙãüÿÿÿÿ
+p
+java:S1104*"UMake genderCom a static final constant or non-public and provide accessors if needed.(ê—ôÔüÿÿÿÿ
+l
+java:S1104+"VMake passwordTf a static final constant or non-public and provide accessors if needed.(û€«š
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äŽúîýÿÿÿÿ
+l
+java:S2095p"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+k
+java:S3008#"URename this field "INSERT_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ýþ
+k
+java:S1845:"URename method "submitBn" to prevent any misunderstanding/clash with field "submitBn".(‰ â‘
+w
+java:S1450-"\Remove the "localDatabase" field and declare it as a local variable in the relevant methods.(ÈàƒÍøÿÿÿÿ
+z
+java:S1450."_Remove the "propertiesLoader" field and declare it as a local variable in the relevant methods.(¶´í ùÿÿÿÿ
+Q
+java:S26966"6Make the enclosing method "static" or remove this set.(ÅË“—ÿÿÿÿÿ
+š
+java:S1130C"Remove the declaration of thrown exception 'java.security.NoSuchAlgorithmException', as it cannot be thrown from method's body.(’ ÈÁýÿÿÿÿ
+H
+java:S1172o"-Remove this unused method parameter "source".(ÓžÖýÿÿÿÿ
+V	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(žù§é8Î—ÜÉŒ0
+i	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Ú¤ ûÿÿÿÿ
+M
+java:S1172š"1Remove this unused method parameter "mouseEvent".(·Ú¤ ûÿÿÿÿ
+U
+java:S1128"8Remove this unused import 'java.security.MessageDigest'.(Œð²»8¡´ÜÉŒ0

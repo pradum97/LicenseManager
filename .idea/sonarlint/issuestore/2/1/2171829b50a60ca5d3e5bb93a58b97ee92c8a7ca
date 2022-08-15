@@ -1,0 +1,9 @@
+
+\	java:S107"BConstructor has 12 parameters, which is greater than 7 authorized.(‰„’ûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Êé‡·ıÿÿÿÿ
+b
+java:S1659"LDeclare "applicationName" and all following declarations on a separate line.(äÅÑÙ
+K
+java:S1659"5Declare "maxConnectedApplication" on a separate line.(Ñ¬ú³
+b
+java:S1659	"GDeclare "ownerPhone" and all following declarations on a separate line.(ü·¦äûÿÿÿÿ

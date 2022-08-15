@@ -1,0 +1,23 @@
+
+a	java:S112™"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+o
+java:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ„•÷
+f
+java:S1301B"KReplace this "switch" statement by "if" statements to increase readability.(Ò“ÿšùÿÿÿÿ
+w
+java:S1104%"\Make licensePeriodCom a static final constant or non-public and provide accessors if needed.(ÒæÁöùÿÿÿÿ
+p
+java:S1104&"ZMake licenseTypeCom a static final constant or non-public and provide accessors if needed.(š·÷Ë
+v
+java:S1104'"[Make applicationIdTf a static final constant or non-public and provide accessors if needed.(¬½¦¡øÿÿÿÿ
+y
+java:S1104("^Make licenseQuantityCom a static final constant or non-public and provide accessors if needed.(Ïíê¹ûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãéŸ£
+l
+java:S2095t"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+m
+java:S1450+"XRemove the "companyId" field and declare it as a local variable in the relevant methods.(£ï¼-
+<	java:S131B""Add a default case to this switch.(Ò“ÿšùÿÿÿÿ
+V	java:S125M"<This block of commented-out lines of code should be removed.(½þ£äýÿÿÿÿ
+B
+java:S1068+"-Remove this unused "companyId" private field.(£ï¼-

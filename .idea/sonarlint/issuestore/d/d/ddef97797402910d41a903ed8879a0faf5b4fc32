@@ -1,0 +1,39 @@
+
+o
+java:S2293J"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ„•÷
+k	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïèŸäşÿÿÿÿ
+l
+java:S1104$"QMake input a static final constant or non-public and provide accessors if needed.(×ğ÷µüÿÿÿÿ
+l
+java:S1104%"VMake passwordTf a static final constant or non-public and provide accessors if needed.(û€«š
+n
+java:S1104("XMake activeUserId a static final constant or non-public and provide accessors if needed.(Û”‰Í
+H
+java:S1444("2Make this "public static activeUserId" field final(Û”‰Í
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äúîıÿÿÿÿ
+l
+java:S2095H"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+j
+java:S3008#"TRename this field "LOGIN_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Æ‚Æ
+z
+java:S1450'"_Remove the "propertiesLoader" field and declare it as a local variable in the relevant methods.(¶´í ùÿÿÿÿ
+Q
+java:S2696."6Make the enclosing method "static" or remove this set.(çƒ´şÿÿÿÿ
+‡
+java:S11301"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¯„ûÿÿÿÿ
+M
+java:S11721"2Remove this unused method parameter "actionEvent".(¯„ûÿÿÿÿ
+T
+java:S11176"9Rename "input" which hides the field declared at line 36.(´ÇÔşÿÿÿÿ
+Q
+java:S2696j"6Make the enclosing method "static" or remove this set.(Ş“­‚øÿÿÿÿ
+L
+java:S1172z"1Remove this unused method parameter "mouseEvent".(ûŞš†ûÿÿÿÿ
+I
+java:S1172„"2Remove this unused method parameter "actionEvent".(†Š‹•
+S
+java:S1128"8Remove this unused import 'javafx.application.Platform'.(§“óùÿÿÿÿ
+L
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:
+R
+java:S1128"7Remove this unused import 'javafx.scene.control.Label'.(ö²­ÿÿÿÿÿ

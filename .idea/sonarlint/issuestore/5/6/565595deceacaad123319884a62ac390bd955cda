@@ -1,0 +1,27 @@
+
+h	java:S112¥"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8öòÁÑŠ0
+o
+java:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ„•÷
+V	java:S110r"<This class has 9 parents which is greater than 5 authorized.(ÚŒŸùÿÿÿÿ
+k
+java:S1104("UMake tableView a static final constant or non-public and provide accessors if needed.(‘é°ô
+n
+java:S1104)"SMake colSrNo a static final constant or non-public and provide accessors if needed.(²Í–ıÿÿÿÿ
+m
+java:S1104*"WMake colFileName a static final constant or non-public and provide accessors if needed.(¦Ú˜ë
+l
+java:S1104+"WMake colBackDate a static final constant or non-public and provide accessors if needed.(Ç»¶E
+k
+java:S1104,"UMake colAction a static final constant or non-public and provide accessors if needed.(Ö‡ü÷
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãéŸ£
+`
+java:S2259Z"JA "NullPointerException" could be thrown; "backupModels" is nullable here.(Òìâö
+l
+java:S2095?"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+W
+java:S1117W"ARename "applicationId" which hides the field declared at line 46.(ëòùË
+D	java:S108‘")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ
+[
+java:S1128"9Remove this unused import 'javafx.scene.input.Clipboard'.(ùÿöåúÿÿÿÿ8ÑÁÑŠ0
+]
+java:S1128"@Remove this unused import 'javafx.scene.input.ClipboardContent'.(£¼…8ÑÁÑŠ0

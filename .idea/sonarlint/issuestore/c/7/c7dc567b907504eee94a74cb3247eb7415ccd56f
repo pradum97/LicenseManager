@@ -1,0 +1,67 @@
+
+a	java:S112Ñ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+o
+java:S2293c"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ„•÷
+a
+java:S1192K"KDefine a constant instead of duplicating this literal "company_id" 3 times.(šš©Û
+j
+java:S1192E"ODefine a constant instead of duplicating this literal "application_id" 3 times.(…º®øüÿÿÿÿ
+k	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùôõˆúÿÿÿÿ
+k	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÆÁÌúÿÿÿÿ
+R	java:S110¶"<This class has 9 parents which is greater than 5 authorized.(Ã¶êß
+Q	java:S110ò"<This class has 9 parents which is greater than 5 authorized.(¶ÖÈd
+u
+java:S1104+"ZMake applicationIdL a static final constant or non-public and provide accessors if needed.(ÞžŽÖøÿÿÿÿ
+m
+java:S1104,"RMake nameTf a static final constant or non-public and provide accessors if needed.(²Æ‘Ûüÿÿÿÿ
+n
+java:S1104-"SMake emailTf a static final constant or non-public and provide accessors if needed.(úï‹«ýÿÿÿÿ
+k
+java:S1104."UMake tableView a static final constant or non-public and provide accessors if needed.(ÅõÉ¶
+i
+java:S1104/"SMake colSrNo a static final constant or non-public and provide accessors if needed.(Ž©«Ð
+s
+java:S11040"XMake colSerialNum a static final constant or non-public and provide accessors if needed.(Ôðõ÷ÿÿÿÿÿ
+p
+java:S11041"ZMake colLicenseType a static final constant or non-public and provide accessors if needed.(¼ÐØî
+s
+java:S11042"XMake colStartDate a static final constant or non-public and provide accessors if needed.(‹Ñò½øÿÿÿÿ
+o
+java:S11043"YMake colExpireDate a static final constant or non-public and provide accessors if needed.(º…™Æ
+m
+java:S11044"WMake colValidity a static final constant or non-public and provide accessors if needed.(ùÜ–»
+p
+java:S11045"UMake colStatus a static final constant or non-public and provide accessors if needed.(•å©Íþÿÿÿÿ
+k
+java:S11046"UMake colAction a static final constant or non-public and provide accessors if needed.(ÔªÅÍ
+k
+java:S11047"UMake phoneNumL a static final constant or non-public and provide accessors if needed.(žé‰
+r
+java:S11048"WMake colQuantity a static final constant or non-public and provide accessors if needed.(ÜºÝ¸üÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãéŸ£
+\
+java:S2259™"EA "NullPointerException" could be thrown; "keyList" is nullable here.(ÿýÝ¹
+l
+java:S2095a"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+;
+java:S1659;"%Declare "ownerId" on a separate line.(Üç”
+b
+java:S1659="GDeclare "ownerPhone" and all following declarations on a separate line.(ü·¦äûÿÿÿÿ
+l
+java:S1450;"VRemove the "ownerId" field and declare it as a local variable in the relevant methods.(Üç”
+h
+java:S3776["RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(¨¹ë«
+i
+java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(¹¥­§
+@
+java:S1659Ê")Declare "expiresDate" on a separate line.(âÄª
+Y	java:S125ü"<This block of commented-out lines of code should be removed.(±Î¯°8¦¤ÉÔŠ0
+^	java:S125Ú"<This block of commented-out lines of code should be removed.(‚ÍÆãùÿÿÿÿ8©¤ÉÔŠ0
+P
+java:S1172é"2Remove this unused method parameter "actionEvent".(ö®–É8ª¤ÉÔŠ0
+a
+java:S1128"FRemove this unused import 'com.license.manager.Controller.Auth.Login'.(äŠáßøÿÿÿÿ
+M
+java:S1128"2Remove this unused import 'javafx.stage.Modality'.(£†üÐüÿÿÿÿ
+A
+java:S1068;"+Remove this unused "ownerId" private field.(Üç”

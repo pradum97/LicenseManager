@@ -1,0 +1,19 @@
+
+o
+java:S2293h"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ„•÷
+s
+java:S1104""]Make applicationNameTf a static final constant or non-public and provide accessors if needed.(®¸Íò
+q
+java:S1104#"VMake fullNameTf a static final constant or non-public and provide accessors if needed.(ðëùáúÿÿÿÿ
+n
+java:S1104$"SMake phoneTf a static final constant or non-public and provide accessors if needed.(¾ÀºÔúÿÿÿÿ
+n
+java:S1104%"SMake emailTf a static final constant or non-public and provide accessors if needed.(Óø›Þþÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÁÜ¬
+l
+java:S2095f"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(žù§é
+a
+java:S1128"FRemove this unused import 'com.license.manager.LocalDb.LocalDatabase'.(ð¦šãÿÿÿÿÿ
+P
+java:S1128":Remove this unused import 'javafx.scene.control.ComboBox'.(òÀø¸
