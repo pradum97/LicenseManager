@@ -311,6 +311,7 @@ public class LicenseMain implements Initializable {
                         }
 
                     });*/
+
                     String key = tableView.getItems().get(getIndex()).getSerialKey();
 
                     Label serialKey = new Label(key);

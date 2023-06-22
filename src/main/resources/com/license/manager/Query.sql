@@ -62,7 +62,7 @@ create table db_backup
     backup_id      int primary key auto_increment,
     path           text not null,
     application_id varchar(100)  not null,
-    backup_date    timestamp default current_timestamp
+    backup_date    varchar(100)
 );
 
 
